@@ -40,7 +40,7 @@ public class PostRepository {
             em.persist(newPost);
             transcation.commit();
         }catch (Exception e){
-            transcation.rollback();
+            transcation.rollback(); //adding comment
         }
         return newPost;
     }
