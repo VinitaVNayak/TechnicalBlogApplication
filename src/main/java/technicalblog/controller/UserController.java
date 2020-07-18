@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import technicalblog.model.User;
 import technicalblog.services.PostService;
 import technicalblog.services.UserService;
-
+// User controller helps to access all the user data
 @Controller
 public class UserController {
 
